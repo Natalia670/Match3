@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: ed8cfd860cff3a94bb53fe022171ab58
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_0
+    21300002: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_1
+    21300004: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_2
+    21300006: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_3
+    21300008: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_4
+    21300010: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_5
+    21300012: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_6
+    21300014: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_7
+    21300016: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_8
+    21300018: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_9
+    21300020: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_10
+    21300022: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_11
+    21300024: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_12
+    21300026: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_13
+    21300028: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_14
+    21300030: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_15
+    21300032: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_16
+    21300034: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_17
+    21300036: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_18
+    21300038: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_19
+    21300040: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_20
+    21300042: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_21
+    21300044: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_22
+    21300046: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_23
+    21300048: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_24
+    21300050: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_25
+    21300052: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_26
+    21300054: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_27
+    21300056: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_28
+    21300058: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_29
+    21300060: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_30
+    21300062: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_31
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5984f3b94aa9e234098d26c0eb5c4011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 216
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cf5610fab6e5044ae41d70c0da1f87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 216
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de65fc859de130e42bc60370c02558d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 216
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94f5d9f619522c4a8ecf0a83f6927a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 216
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eda4e7cce66e414fa6c38caf3cf2add
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ed1c886868a2449b7ecd518198d2d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 173
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee4f590f4c932f48b66194eb9b0840c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 173
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402c6da334461e64fabf6b4264f796ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 173
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b296aee54e18a8f4b80b3e63cd89f79f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 173
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6d449ce6771e74082a58c77fc66af3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_10
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 173
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3312a3e9d251446979882aa451ecff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 173
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886ab3978739a6b478d9458e76b9e7e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 173
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e854a6b50b1574ca05d84520a4d6bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_13
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 173
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe783906dceb4045a167fee76aaa06f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b0b2f2107004749b246f926de1958d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43639e57b877624492301b27c7161b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6217098c955b8e64ebdc36ab206c812c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 128
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c03f89b9d741174983155dbb3473bc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_18
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 128
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaacab297798ce459f2ff2222c6a754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 128
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de00deb9384edaa43bd7189fd3fa2372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_20
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 128
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd3e804c99973a439f02cd7e8b51aa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 86
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda851e30cdc810449b5233d353ebdc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8b20ff6debb8043a625a41368b4c9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 86
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f428e68ee5248439aca8e0cdba255c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_24
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 86
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bfffc5597b168459966c3cce4f269b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_25
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 86
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf372ab637e7ed4291c0c0cb37feda4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 43
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887dd52585563504ea7d594f663f8524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fe6aeb1c9b1aa4889e585cac1f0e19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33015d857c35e9439aad1cf750c2568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eb0c8d3b7d93545bf417ba53ce6bc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_30
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a677a8a8235af41a895fecf35c51a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_31
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83f45692e9759042bf30179e1d22bb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e4f43640293882458dacf29ad66a39a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
