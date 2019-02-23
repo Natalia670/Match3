@@ -6,29 +6,30 @@ using UnityEngine;
 
 public class Ball1 : MonoBehaviour
 {
-    private static Color selectedColor = new Color(.5f, .5f, .5f, 1.0f);
-    private static Ball1 previousSelected = null;
+    protected static Color selectedColor = new Color(.5f, .5f, .5f, 1.0f);
+    protected static Ball1 previousSelected = null;
 
-    private bool matchFound = false;
+    protected bool matchFound = false;
 
-    private SpriteRenderer render;
-    private bool isSelected = false;
+    protected SpriteRenderer render;
+    protected bool isSelected = false;
+    protected bool isStone = false;
 
-    private Vector2[] adjacentDirections = new Vector2[] { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
+    protected Vector2[] adjacentDirections = new Vector2[] { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
 
     void Awake()
     {
         render = GetComponent<SpriteRenderer>();
     }
 
-    private void Select()
+    protected void Select()
     {
         isSelected = true;
         render.color = selectedColor;
         previousSelected = gameObject.GetComponent<Ball1>();
     }
 
-    private void Deselect()
+    protected void Deselect()
     {
         isSelected = false;
         render.color = Color.white;
@@ -38,44 +39,47 @@ public class Ball1 : MonoBehaviour
     void OnMouseDown()
     {
 
-        if (render.sprite == null || BoardManager.instance.IsShifting)
-        {
-            return;
-        }
-
-        if (isSelected)
-        {
-            Deselect();
-        }
-        else
-        {
-            if (previousSelected == null)
+            if (render.sprite == null || BoardManager.instance.IsShifting)
             {
-                Select();
+                return;
+            }
+
+            if (isSelected)
+            {
+                Deselect();
             }
             else
             {
-                if (GetAllAdjacentTiles().Contains(previousSelected.gameObject))
+                if (previousSelected == null)
                 {
+                    Select();
+                }
+                else
+                {
+                    if (GetAllAdjacentTiles().Contains(previousSelected.gameObject))
+                    {
 
                         var tempRender = previousSelected.render;
                         SwapSprite(previousSelected.render);
                         previousSelected.ClearAllMatches(tempRender);
-                    ClearAllMatches(tempRender);
-                    previousSelected.Deselect();
-                        
+                        ClearAllMatches(tempRender);
+                        previousSelected.Deselect();
 
-                    //Debug.Log("YEY");
-                }
-                else
-                { 
-                    previousSelected.GetComponent<Ball1>().Deselect();
-                    Select();
-                    //Debug.Log("Noooo");
+
+                        //Debug.Log("YEY");
+                    }
+                    else
+                    {
+                        previousSelected.GetComponent<Ball1>().Deselect();
+                        Select();
+                        //Debug.Log("Noooo");
+                    }
+
+
                 }
 
             }
-        }
+        
     }
 
     IEnumerator SwapNoMatch(SpriteRenderer tempRender) {
@@ -86,7 +90,7 @@ public class Ball1 : MonoBehaviour
        
     }
 
-    public void SwapSprite(SpriteRenderer render2)
+    protected void SwapSprite(SpriteRenderer render2)
     {
         if (render.sprite == render2.sprite)
         {
@@ -119,7 +123,7 @@ public class Ball1 : MonoBehaviour
         return adjacentTiles;
     }
 
-    private List<GameObject> FindMatch(Vector2 castDir)
+    protected List<GameObject> FindMatch(Vector2 castDir)
     { 
         List<GameObject> matchingBalls = new List<GameObject>(); 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, castDir); 
@@ -173,5 +177,6 @@ public class Ball1 : MonoBehaviour
         }
 
     }
+
 
 }

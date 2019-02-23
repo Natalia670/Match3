@@ -377,6 +377,8 @@ MonoBehaviour:
   xSize: 6
   ySize: 7
   score: {fileID: 1777830358}
+  stone: {fileID: 5504172624735443703, guid: 95a8535b27b097948ae8695687d7b8d0, type: 3}
+  bomb: {fileID: 7799705699333195206, guid: 9f4a6c16952d10b4fbf99967c10e3f3f, type: 3}
 --- !u!4 &1935268524
 Transform:
   m_ObjectHideFlags: 0

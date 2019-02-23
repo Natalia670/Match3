@@ -12,6 +12,8 @@ public class BoardManager : MonoBehaviour
     public GameObject ball;
     public int xSize, ySize;
     public Text score;
+    public GameObject stone;
+    public GameObject bomb;
 
     private GameObject[,] matriz;
 
@@ -22,11 +24,36 @@ public class BoardManager : MonoBehaviour
     void Start()
     {
         instance = GetComponent<BoardManager>();
-
+       
         Vector2 offset = ball.GetComponent<SpriteRenderer>().bounds.size;
         CreateBoard(offset.x, offset.y);
     }
 
+       public void updateBalls() {
+        float startX = transform.position.x;
+        float startY = transform.position.y;
+        Vector2 offset = ball.GetComponent<SpriteRenderer>().bounds.size;
+        float xOffset = offset.x;
+        float yOffset = offset.y;
+        for (int x = 0; x < xSize; x++)
+        {
+            for (int y = 1; y < ySize; y++)
+            {
+
+                if (matriz[x, y].GetComponent<SpriteRenderer>().sprite.name == "dream_world_sprite_like_poke_ball_vectors_by_ldejruff-d5qzltl_31")
+                {
+                    var s = matriz[x, y].GetComponent<SpriteRenderer>().sprite;
+                    matriz[x, y] = Instantiate(ball, new Vector3(startX + (xOffset * x), startY + (yOffset * y), 0), ball.transform.rotation);
+                    matriz[x, y].GetComponent<SpriteRenderer>().sprite = s;
+                    matriz[x, y - 1] = Instantiate(stone, new Vector3(startX + (xOffset * x), startY + (yOffset * y), 0), ball.transform.rotation);
+                    
+
+                    
+                }
+
+            }
+        }
+    }
 
     private void CreateBoard(float xOffset, float yOffset)
     {
@@ -39,13 +66,36 @@ public class BoardManager : MonoBehaviour
         {
             for (int y = 0; y < ySize; y++)
             {
-                GameObject newBall = Instantiate(ball, new Vector3(startX + (xOffset * x), startY + (yOffset * y), 0), ball.transform.rotation);
-                matriz[x, y] = newBall;
 
-                newBall.transform.parent = transform; 
 
-                Sprite newSprite = pokeballs[Random.Range(0, pokeballs.Count)]; 
-                newBall.GetComponent<SpriteRenderer>().sprite = newSprite; 
+
+
+                if (Random.Range(0, 10) > 8)
+                {
+                    GameObject newStone = Instantiate(stone, new Vector3(startX + (xOffset * x), startY + (yOffset * y), 0), ball.transform.rotation);
+                    matriz[x, y] = newStone;
+
+                    newStone.transform.parent = transform;
+                }
+                else if (Random.Range(0, 10) > 4)
+                {
+                    GameObject newBomb = Instantiate(bomb, new Vector3(startX + (xOffset * x), startY + (yOffset * y), 0), ball.transform.rotation);
+                    matriz[x, y] = newBomb;
+
+                    newBomb.transform.parent = transform;
+                }
+                else {
+                    GameObject newBall = Instantiate(ball, new Vector3(startX + (xOffset * x), startY + (yOffset * y), 0), ball.transform.rotation);
+                    matriz[x, y] = newBall;
+
+                    newBall.transform.parent = transform;
+                    Sprite newSprite = pokeballs[Random.Range(0, pokeballs.Count)];
+                    newBall.GetComponent<SpriteRenderer>().sprite = newSprite;
+                }
+                
+               
+
+               
                
             }
         }
@@ -96,6 +146,7 @@ public class BoardManager : MonoBehaviour
             }
         }
         IsShifting = false;
+        updateBalls();
     }
 
     private Sprite GetNewSprite(int x, int y)
